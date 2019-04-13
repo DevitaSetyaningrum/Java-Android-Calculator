@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#327EFF">
+
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:paddingTop="30dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNumber1"
+            android:inputType="numberDecimal"
+            android:hint="Input Number 1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            />
+
+
+    <Spinner
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/SprOperator"
+        android:entries="@array/SpinnerItems"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="right"
+        >
+    </Spinner>
+
+
+
+        <EditText
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNumber2"
+            android:inputType="numberDecimal"
+            android:hint="Input Number 2"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            />
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_Result"
+        android:text="Calculate"
+        android:layout_marginBottom="20dp"
+        android:background="#074DFF"
+        
+        />
+
+    <EditText
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtResult"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+</LinearLayout>
